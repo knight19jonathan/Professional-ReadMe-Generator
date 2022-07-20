@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/knight19jonathan/Professional-ReadMe-Generator#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "fs": "^0.0.1-security",
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "util": "^0.12.4"
   }
 }

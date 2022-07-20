@@ -3,6 +3,8 @@
 
 const fs = require("fs");
 const inquirer = require("inquirer");
+const util = require("util");
+const axios = require("axios");
 
 //const generateReadMe = ({userTitle, description, tableOfContents, installInstructions, usage, contributors, screenShot, GitHub}) => 
  
@@ -21,7 +23,7 @@ inquirer.prompt([
         {
             name: "tableOfContents",
             message: "List out the Table of Contents of your app if it applies.",
-            type: "text"
+            type: "list",
         },
         {
             name: "installInstructions",
@@ -58,31 +60,30 @@ inquirer.prompt([
 .then((Response) => {
 //const content = generateReadMe(Response);
 fs.writeFile(`testREADME.md`, 
-`
-#${Response.userTitle}
+`# ${Response.userTitle}
 
-##Description
-###${Response.description}
+## Description
+#### ${Response.description}
 
-###${Response.screenShot}
+![This is the screenshot of the application](${Response.screenShot})
 
-##Table of Contents
-####${Response.tableOfContents}
+## Table of Contents
+#### ${Response.tableOfContents}
 
-##Installation
-##${Response.installInstructions}
+## Installation
+#### ${Response.installInstructions}
 
-##Usage
-##${Response.usage}
+## Usage
+#### ${Response.usage}
 
-###Contributors
-##${Response.contributors}
+## Contributors
+#### ${Response.contributors}
 
-###Credits
-##${Response.Credits}
+## Credits
+### ${Response.Credits}
 
-###Contacts
-###${Response.GitHub}
+## Contacts
+### ${Response.GitHub}
 `, (err) => err ? console.error(err) : console.log("Success!")
 )
 
@@ -91,3 +92,5 @@ fs.writeFile(`testREADME.md`,
 .catch(err => {
 console.log(err);
 });
+
+
