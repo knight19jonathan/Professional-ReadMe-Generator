@@ -4,33 +4,8 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-const generateReadMe = ({userTitle, description, tableOfContents, installInstructions, usage, contributors, screenShot, GitHub}) => 
-`
-#<${Response.userTitle}>
-
-##Description
-${Response.description}
-
-${Response.screenShot}
-
-##Table of Contents
-${Response.tableOfContents}
-
-##Installation
-${Response.installInstructions}
-
-##Usage
-${Response.usage}
-
-###Contributors
-${Response.contributors}
-
-###Credits
-${Response.Credits}
-
-###Contacts
-${Response.GitHub}
-`    
+//const generateReadMe = ({userTitle, description, tableOfContents, installInstructions, usage, contributors, screenShot, GitHub}) => 
+ 
 
 inquirer.prompt([
         {
@@ -80,13 +55,39 @@ inquirer.prompt([
          }
     ])  
         
-    .then((Response) => {
-        const content = generateReadMe(Response);
-        fs.writeFile(`README.md`, content, (err) => err ? console.error(err) : console.log("Success!")
-        )
+.then((Response) => {
+//const content = generateReadMe(Response);
+fs.writeFile(`testREADME.md`, 
+`
+#${Response.userTitle}
 
-        }
-        )
-        .catch(err => {
-            console.log(err);
-        });
+##Description
+###${Response.description}
+
+###${Response.screenShot}
+
+##Table of Contents
+####${Response.tableOfContents}
+
+##Installation
+##${Response.installInstructions}
+
+##Usage
+##${Response.usage}
+
+###Contributors
+##${Response.contributors}
+
+###Credits
+##${Response.Credits}
+
+###Contacts
+###${Response.GitHub}
+`, (err) => err ? console.error(err) : console.log("Success!")
+)
+
+}
+)
+.catch(err => {
+console.log(err);
+});
