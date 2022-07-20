@@ -1,24 +1,27 @@
-# Test Title Stuff
+# **Project Make Money**
 
 ## Description
-### Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam maxime velit impedit cupiditate sed sint labore dolorem? Amet, magni? Molestias sapiente qui magni tempore omnis commodi iure quis quidem non?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi sunt velit delectus enim laudantium, autem, pariatur ab commodi iusto, consequuntur dignissimos cum! Ut illo voluptate facere quia eius incidunt culpa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi dolorem fugiat commodi necessitatibus aspernatur laborum labore optio provident quaerat natus corporis fuga, voluptatem laboriosam esse obcaecati. Doloribus, quas saepe?
+#### Prints Electronic Currency
 
-### undefined
+![This is the screenshot of the application](undefined)
 
 ## Table of Contents
-#### Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam maxime velit impedit cupiditate sed sint labore dolorem? Amet, magni? Molestias sapiente qui magni tempore omnis commodi iure quis quidem non?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi sunt velit delectus enim laudantium, autem, pariatur ab commodi iusto, consequuntur dignissimos cum! Ut illo voluptate facere quia eius incidunt culpa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi dolorem fugiat commodi necessitatibus aspernatur laborum labore optio provident quaerat natus corporis fuga, voluptatem laboriosam esse obcaecati. Doloribus, quas saepe?
+#### 
 
 ## Installation
-## Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam maxime velit impedit cupiditate sed sint labore dolorem? Amet, magni? Molestias sapiente qui magni tempore omnis commodi iure quis quidem non?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi sunt velit delectus enim laudantium, autem, pariatur ab commodi iusto, consequuntur dignissimos cum! Ut illo voluptate facere quia eius incidunt culpa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi dolorem fugiat commodi necessitatibus aspernatur laborum labore optio provident quaerat natus corporis fuga, voluptatem laboriosam esse obcaecati. Doloribus, quas saepe?
+#### Download from repo then load then open inedx.js open command terminal and run node index.js
 
 ## Usage
-## Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam maxime velit impedit cupiditate sed sint labore dolorem? Amet, magni? Molestias sapiente qui magni tempore omnis commodi iure quis quidem non?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi sunt velit delectus enim laudantium, autem, pariatur ab commodi iusto, consequuntur dignissimos cum! Ut illo voluptate facere quia eius incidunt culpa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi dolorem fugiat commodi necessitatibus aspernatur laborum labore optio provident quaerat natus corporis fuga, voluptatem laboriosam esse obcaecati. Doloribus, quas saepe?
+#### Answer querries and fill information to autocomplete the auto generateded readme.
 
-### Contributors
-## Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam maxime velit impedit cupiditate sed sint labore dolorem? Amet, magni? Molestias sapiente qui magni tempore omnis commodi iure quis quidem non?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi sunt velit delectus enim laudantium, autem, pariatur ab commodi iusto, consequuntur dignissimos cum! Ut illo voluptate facere quia eius incidunt culpa?Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias modi dolorem fugiat commodi necessitatibus aspernatur laborum labore optio provident quaerat natus corporis fuga, voluptatem laboriosam esse obcaecati. Doloribus, quas saepe?
+## Contributors
+#### Contribute Here: [https://account.venmo.com/u/Jonathan-Knight-61](https://account.venmo.com/u/Jonathan-Knight-61)
 
-### Credits
-## undefined
+## Tests
 
-### Contacts
+## Credits
 ### undefined
+
+## Contacts
+### Email: []()
+### [GitHub](https://github.com/knight19jonathan?tab=repositories)
